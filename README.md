@@ -4,7 +4,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Site</title>
+<title></title>
 </head>
 <body>
 <h1>Meu Site do GitHub</h1>
@@ -22,8 +22,6 @@ O CSS (Cascading Style Sheets ou Folha de Estilo em Cascata) é uma linguagem de
 <h6>A diferença dos dois<h6>
 • HTML = O o quê existe na página (estrutura e organização).
 • CSS = O como a página se apresenta (estilo e design).
-• Não são linguagens de programação; são linguagens de marcação e de estilo, respectivamente
-<p>fim<p>
-
+• Não são linguagens de programação; são linguagens de marcação e de estilo, respectivamente.
 </body>
 </html>
