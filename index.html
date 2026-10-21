@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto Gerenciador de Conteúdo desenvolvido pela equipe.">
+  <title>Gerenciador de Conteúdo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#inicio" aria-label="Gerenciador de Conteúdo - início">
+      <span class="marca-icone">GC</span>
+      <span>Gerenciador<span class="marca-claro"> de Conteúdo</span></span>
+    </a>
+    <button class="menu-botao" id="menuBotao" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre o projeto</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#equipe">Equipe</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-conteudo">
+        <p class="etiqueta"><span class="ponto"></span> PROJETO ESCOLAR • DESENVOLVIMENTO WEB</p>
+        <h1>Organize ideias.<br><span>Gerencie conteúdo.</span></h1>
+        <p class="hero-texto">Um projeto criado para organizar informações, facilitar o acesso aos conteúdos e incentivar o trabalho em equipe.</p>
+        <div class="acoes">
+          <a class="botao botao-principal" href="#sobre">Conheça o projeto <span>↗</span></a>
+          <a class="botao botao-secundario" href="#recursos">Ver recursos</a>
+        </div>
+        <div class="indicadores">
+          <div><strong>01</strong><span>Organização</span></div>
+          <div><strong>02</strong><span>Colaboração</span></div>
+          <div><strong>03</strong><span>Tecnologia</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração de painel de conteúdo">
+        <div class="janela">
+          <div class="janela-topo"><span></span><span></span><span></span><small>painel do projeto</small></div>
+          <div class="painel">
+            <div class="painel-lateral"><b>GC</b><i></i><i></i><i></i><i></i></div>
+            <div class="painel-principal">
+              <div class="painel-cabecalho"><div><small>ESPAÇO DE TRABALHO</small><h3>Visão geral</h3></div><span class="avatar">E</span></div>
+              <div class="cartoes">
+                <div class="mini-card"><span class="mini-icone roxo">▤</span><small>Conteúdos</small><b>Organizados</b></div>
+                <div class="mini-card"><span class="mini-icone verde">✓</span><small>Tarefas</small><b>Em equipe</b></div>
+              </div>
+              <div class="lista-demo"><div class="lista-titulo">Atividades recentes <span>•••</span></div><div class="linha-demo"><i class="quadrado q-roxo"></i><span>Planejamento do site</span><b>Em andamento</b></div><div class="linha-demo"><i class="quadrado q-verde"></i><span>Organização dos arquivos</span><b>Concluído</b></div><div class="linha-demo"><i class="quadrado q-amarelo"></i><span>Revisão em equipe</span><b>Pendente</b></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="flutuante flutuante-topo">✦ <span>Ideias em movimento</span></div>
+        <div class="flutuante flutuante-baixo"><span class="check">✓</span><div><b>Trabalho colaborativo</b><small>Uma equipe, um objetivo</small></div></div>
+      </div>
+    </section>
+
+    <section class="sobre secao" id="sobre">
+      <div class="titulo-secao"><p class="sobretitulo">SOBRE O PROJETO</p><h2>Conteúdo bem organizado<br>faz a diferença.</h2></div>
+      <div class="sobre-texto"><p>O Gerenciador de Conteúdo é uma proposta de projeto para reunir, organizar e apresentar informações de maneira clara. A ideia é tornar o conteúdo mais fácil de encontrar e manter.</p><p>Este site é uma página inicial demonstrativa. A equipe pode personalizar os textos e desenvolver novas funções conforme as necessidades do projeto.</p></div>
+    </section>
+
+    <section class="recursos secao" id="recursos">
+      <div class="titulo-secao centro"><p class="sobretitulo">O QUE QUEREMOS FACILITAR</p><h2>Recursos pensados para a equipe</h2><p class="subtitulo">Uma base simples para planejar, organizar e compartilhar informações.</p></div>
+      <div class="grade-recursos">
+        <article class="recurso"><span class="recurso-icone roxo">▤</span><h3>Organização</h3><p>Estruture conteúdos e mantenha as informações reunidas em um só lugar.</p><span class="numero">01 / 03</span></article>
+        <article class="recurso"><span class="recurso-icone verde">⌘</span><h3>Colaboração</h3><p>Divida tarefas, compartilhe ideias e trabalhe junto com os integrantes.</p><span class="numero">02 / 03</span></article>
+        <article class="recurso"><span class="recurso-icone amarelo">↗</span><h3>Acesso simples</h3><p>Use uma página adaptada para telas grandes e para dispositivos móveis.</p><span class="numero">03 / 03</span></article>
+      </div>
+    </section>
+
+    <section class="equipe secao" id="equipe">
+      <div class="equipe-bloco"><p class="sobretitulo">FEITO EM EQUIPE</p><h2>Boas ideias crescem<br>quando são compartilhadas.</h2><p>Este projeto pode ser construído por etapas, com cada integrante contribuindo com suas habilidades.</p><a class="botao botao-claro" href="https://github.com/" target="_blank" rel="noopener noreferrer">Conheça o GitHub ↗</a></div>
+      <div class="equipe-cartao"><div class="equipe-simbolo">GC</div><p class="equipe-nome">Nossa equipe</p><p class="equipe-desc">Gerenciador de Conteúdo</p><div class="membros"><span>1</span><span>2</span><span>3</span><span>+</span></div><small>Adicione aqui os nomes dos integrantes.</small></div>
+    </section>
+  </main>
+
+  <footer><a class="marca marca-rodape" href="#inicio"><span class="marca-icone">GC</span><span>Gerenciador de Conteúdo</span></a><p>Projeto escolar • Desenvolvido com HTML, CSS e JavaScript</p><a href="#inicio" class="voltar">Voltar ao topo ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
