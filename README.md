@@ -19,6 +19,11 @@
 O HTML (HyperText Markup Language, ou Linguagem de Marcação de Hipertexto) é a linguagem padrão utilizada para criar e estruturar páginas na internet. Ele funciona como o "esqueleto" de um site, organizando textos, imagens, links, tabelas e vídeos por meio de tags que orientam o navegador.
 <h5>o que é css?<h5>
 O CSS (Cascading Style Sheets ou Folha de Estilo em Cascata) é uma linguagem de estilo usada para definir a aparência visual de páginas da web, como cores, fontes, espaçamentos e o layout dos elementos. Ele trabalha em conjunto com o HTML, que é responsável pela estrutura do conteúdo.
+<h6>A diferença dos dois<h6>
+• HTML = O o quê existe na página (estrutura e organização).
+• CSS = O como a página se apresenta (estilo e design).
+• Não são linguagens de programação; são linguagens de marcação e de estilo, respectivamente
+<p>fim<p>
 
 </body>
 </html>
