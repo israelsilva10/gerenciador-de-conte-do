@@ -23,5 +23,7 @@ O CSS (Cascading Style Sheets ou Folha de Estilo em Cascata) é uma linguagem de
 • HTML = O o quê existe na página (estrutura e organização).
 • CSS = O como a página se apresenta (estilo e design).
 • Não são linguagens de programação; são linguagens de marcação e de estilo, respectivamente.
+<h7>o que é Java?<h7>
+é uma linguagem de programação interpretada, de alto nível e com tipagem dinâmica, usada para criar interatividade e dinamismo em páginas da Web
 </body>
 </html>
